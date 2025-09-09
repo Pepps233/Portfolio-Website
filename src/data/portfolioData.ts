@@ -17,38 +17,32 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Customer Insights Dashboard for E-Commerce",
-    summary: "Developed an interactive Power BI dashboard to analyze customer behavior, sales trends, and marketing performance for an e-commerce company.",
+    title: "Barcode-scanning Attendance Tracker",
+    summary: "A lightweight Python program built using OpenCV, pandas, and openpyxl to decode student ID barcodes and record attendance details in Excel.",
     images: [
-      "https://example.com/dashboard1.jpg",
-      "https://example.com/dashboard2.jpg",
-      "https://example.com/dashboard3.jpg"
     ],
-    tags: ["Power BI", "SQL", "Data Visualization", "Customer Analytics", "Business Intelligence"],
+    tags: ["Python", "OpenCV", "pandas", "Excel"],
     details: {
-      challenge: "The company lacked a centralized reporting system to track customer engagement, purchase patterns, and marketing campaign effectiveness.",
-      solution: "Designed and implemented a Power BI dashboard integrating data from Google Analytics, CRM systems, and sales records, providing real-time insights.",
+      challenge: "Our high school’s robotics team had about 35–40 members, and checking them in with the traditional sign-up sheet was too slow, cutting into regular meeting times. A faster method of recording attendance was needed.",
+      solution: "A program was written to automatically decode student IDs when a student shows their ID to the camera or enters their student number into the system. The program then automatically formats the date, time, and meeting in Excel, generating weekly and seasonal total hours for each member.",
       impact: [
-        "Increased marketing ROI by 25% through data-driven campaign adjustments.",
-        "Enhanced customer segmentation, leading to a 15% improvement in personalized recommendations and repeat purchases."
+        "Used by a 40-member robotics club to streamline attendance tracking and accurately determine active member",
+        "Increased meeting productivity and overall time management through decreasing amount of time required for members to check-in"
       ]
     }
   },
   {
     id: 2,
-    title: "Automated Financial Reporting System",
-    summary: "Created an automated ETL pipeline to streamline financial reporting, reducing manual data processing time for a financial services firm.",
+    title: "Real-time American Sign Language (ASL) Alphabet Translator",
+    summary: "A camera-based ASL alphabet translator that uses a camera to read input and decode hand signs, built with TensorFlow, MediaPipe, and a custom pipeline trained on Google’s Teachable Machine with 5,500+ self-created features and labels",
     images: [
-      "https://example.com/finance1.jpg",
-      "https://example.com/finance2.jpg"
     ],
-    tags: ["Python", "ETL", "Data Engineering", "Finance", "Power BI", "Automation"],
+    tags: ["Python", "TensorFlow", "MediaPipe", "OpenCV"],
     details: {
-      challenge: "The finance team spent excessive time manually aggregating and reconciling data from multiple sources for monthly reports.",
-      solution: "Developed a Python-based ETL pipeline that extracted, cleaned, and loaded financial data into Power BI, automating report generation.",
+      challenge: "As technology advances, many people with speech difficulties still face challenges in communicating effectively. There is a need for tools that not only help others understand them but also allow individuals to express themselves through hand signs.",
+      solution: "The program detects ASL alphabets, translates them into English letters, and audibly informs the user of what they’ve signed. Words and sentences can then be spoken aloud using Python’s text-to-speech library, with support for additional hand signs.",
       impact: [
-        "Reduced reporting time from 5 days to a few hours, improving efficiency.",
-        "Minimized errors in financial reports, ensuring data accuracy for decision-making."
+        "Not yet utilized",
       ]
     }
   }

@@ -1,25 +1,21 @@
 export const heroData = {
-  name: 'John Doe',
-  title: 'Full-Stack Developer',
-  description: 'I build scalable web applications and transform raw data into meaningful insights that drive business success.',
-  profilePicture: 'https://example.com/profilepic.jpg',
+  name: 'Jay Yu',
+  title: 'Computer Science @ Purdue University',
+  description: 'Aspiring computer science student with experience in robotics, programming education, and building real-world projects in Python, Java, and Kotlin. Passionate about creating technology that benefits society, with hands-on experience as a robotics team leader and project developer',
+  profilePicture: 'https://avatars.githubusercontent.com/u/117954436?v=4',
   skills: [
+    'Java',
     'JavaScript',
-    'React',
-    'Node.js',
-    'SQL',
     'Python',
-    'Power BI',
-    'DAX',
-    'ETL',
-    'Data Modeling',
-    'API Development',
-    'Cloud Computing',
-    'Machine Learning'
+    'SQL',
+    'C/C++',
+    'HTML',
+    'Spring Boot',
+    'Git'
   ],
   contact: {
-    github: 'https://github.com/johndoe',
-    linkedin: 'https://www.linkedin.com/in/johndoe/',
-    email: 'johndoe@example.com'
+    github: 'https://github.com/Pepps233',
+    linkedin: 'https://www.linkedin.com/in/yujay1/',
+    email: 'yu1582@purdue.edu'
   }
 };
