@@ -13,7 +13,7 @@ export const footerData = {
     },
     {
       name: 'Email',
-      url: 'mailto:yu1582@purdue.com',
+      url: 'mailto:yu1582@purdue.edu',
       icon: 'Mail'
     }
   ],
