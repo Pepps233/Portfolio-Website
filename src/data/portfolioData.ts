@@ -48,7 +48,7 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Purdue Resell",
+    title: "Purdue Find A Study Buddy",
     summary: "in development",
     images: [
     ],
