@@ -45,5 +45,20 @@ export const projects: Project[] = [
         "Not yet utilized",
       ]
     }
+  },
+  {
+    id: 3,
+    title: "Purdue Resell",
+    summary: "in development",
+    images: [
+    ],
+    tags: ["JavaScript", "CSS", "SpringBoot", "AWS", "SQL"],
+    details: {
+      challenge:"",
+      solution:"",
+      impact: [
+        "",
+      ]
+    }
   }
 ];
