@@ -27,7 +27,7 @@ const Footer = () => {
           </p>
           <div className="flex gap-4 font-semibold">
             <a href={footerData.githubCodeLink} className="hover:text-primary">
-              Astro-Shadcn-portfolio
+              Credit: Shadcn portfolio
             </a>
           </div>
         </div>
