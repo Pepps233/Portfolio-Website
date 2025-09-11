@@ -17,6 +17,21 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "Find A Study Buddy",
+    summary: "in development",
+    images: [
+    ],
+    tags: ["JavaScript", "CSS", "Java", "SpringBoot", "AWS", "SQL"],
+    details: {
+      challenge:"",
+      solution:"",
+      impact: [
+        "",
+      ]
+    }
+  },
+  {
+    id: 2,
     title: "Barcode-scanning Attendance Tracker",
     summary: "A lightweight Python program built using OpenCV, pandas, and openpyxl to decode student ID barcodes and record attendance details in Excel.",
     images: [
@@ -32,7 +47,7 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 2,
+    id: 3,
     title: "Real-time American Sign Language (ASL) Alphabet Translator",
     summary: "A camera-based ASL alphabet translator that uses a camera to read input and decode hand signs, built with TensorFlow, MediaPipe, and a custom pipeline trained on Google’s Teachable Machine with 5,500+ self-created features and labels",
     images: [
@@ -43,21 +58,6 @@ export const projects: Project[] = [
       solution: "The program detects ASL alphabets, translates them into English letters, and audibly informs the user of what they’ve signed. Words and sentences can then be spoken aloud using Python’s text-to-speech library, with support for additional hand signs.",
       impact: [
         "Not yet utilized",
-      ]
-    }
-  },
-  {
-    id: 3,
-    title: "Purdue Find A Study Buddy",
-    summary: "in development",
-    images: [
-    ],
-    tags: ["JavaScript", "CSS", "Java", "SpringBoot", "AWS", "SQL"],
-    details: {
-      challenge:"",
-      solution:"",
-      impact: [
-        "",
       ]
     }
   }
