@@ -52,7 +52,7 @@ export const projects: Project[] = [
     summary: "in development",
     images: [
     ],
-    tags: ["JavaScript", "CSS", "SpringBoot", "AWS", "SQL"],
+    tags: ["JavaScript", "CSS", "Java", "SpringBoot", "AWS", "SQL"],
     details: {
       challenge:"",
       solution:"",
