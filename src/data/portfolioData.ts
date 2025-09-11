@@ -21,7 +21,7 @@ export const projects: Project[] = [
     summary: "in development",
     images: [
     ],
-    tags: ["JavaScript", "CSS", "Java", "SpringBoot", "AWS", "SQL"],
+    tags: ["JavaScript", "CSS", "Java", "SpringBoot", "AWS3", "SQL", "MongoDB"],
     details: {
       challenge:"",
       solution:"",
