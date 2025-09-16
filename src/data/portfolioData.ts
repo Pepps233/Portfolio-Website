@@ -17,6 +17,27 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "Employee Management System",
+    summary: "Employee Management System built with a RESTful API using Spring Boot, JPA/Hibernate, and a PostgreSQL database to manage employee entities containing first name, last name, and email. Supports creating, reading, updating, and deleting (CRUD) employee records, as well as searching employees.",
+    images: [
+      "https://i.imgur.com/J55uqjf.png",
+      "https://i.imgur.com/CYDFXbt.png",
+      "https://i.imgur.com/l1KyzQV.png"
+    ],
+    tags: ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "PostgreSQL", "Docker", "Maven"],
+    details: {
+      challenge:"Managing employee records manually or in spreadsheets is error-prone, lacks consistency, and does not scale well for organizations. Additionally, integrating persistence with relational databases while maintaining clean architecture can be difficult for backend applications.",
+      solution:"The Employee Management System provides a RESTful API built with Spring Boot and PostgreSQL, containerized with Docker. It implements a clean layered architecture (Controller → Service → Repository), uses DTOs for separation of concerns, and leverages JPA/Hibernate for database persistence. This ensures structured, reliable, and scalable management of employee data.",
+      impact: [
+        "Improves data accuracy and consistency across employee records",
+        "Reduces manual overhead by automating CRUD operations",
+        "Demonstrates modern backend development practices with Dockerized PostgreSQL",
+        "Provides a scalable foundation that can be extended with authentication, search, and cloud deployment"
+      ]
+    }
+  },
+  {
+    id: 2,
     title: "Find A Study Buddy",
     summary: "in development",
     images: [
@@ -29,28 +50,7 @@ export const projects: Project[] = [
         "",
       ]
     }
-  },
-  {
-    id: 1,
-    title: "Employee Management System",
-    summary: "Employee Management System built with a RESTful API using Spring Boot, JPA/Hibernate, and a PostgreSQL database to manage employee entities containing first name, last name, and email. Supports creating, reading, updating, and deleting (CRUD) employee records, as well as searching employees.",
-    images: [
-      "https://i.imgur.com/J55uqjf.png",
-      "https://i.imgur.com/CYDFXbt.png",
-      "https://i.imgur.com/l1KyzQV.png"
-    ],
-    tags: ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "PostgreSQL", "Docker"],
-    details: {
-      challenge:"Managing employee records manually or in spreadsheets is error-prone, lacks consistency, and does not scale well for organizations. Additionally, integrating persistence with relational databases while maintaining clean architecture can be difficult for backend applications.",
-      solution:"The Employee Management System provides a RESTful API built with Spring Boot and PostgreSQL, containerized with Docker. It implements a clean layered architecture (Controller → Service → Repository), uses DTOs for separation of concerns, and leverages JPA/Hibernate for database persistence. This ensures structured, reliable, and scalable management of employee data.",
-      impact: [
-        "Improves data accuracy and consistency across employee records",
-        "Reduces manual overhead by automating CRUD operations",
-        "Demonstrates modern backend development practices with Dockerized PostgreSQL",
-        "Provides a scalable foundation that can be extended with authentication, search, and cloud deployment"
-      ]
-    }
-  },
+  }, 
   {
     id: 3,
     title: "Barcode-scanning Attendance Tracker",
