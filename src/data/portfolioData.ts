@@ -31,7 +31,28 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 2,
+    id: 1,
+    title: "Employee Management System",
+    summary: "Employee Management System built with a RESTful API using Spring Boot, JPA/Hibernate, and a PostgreSQL database to manage employee entities containing first name, last name, and email. Supports creating, reading, updating, and deleting (CRUD) employee records, as well as searching employees.",
+    images: [
+      "Portfolio-Website/src/images/Screenshot 2025-09-16 at 4.49.11 PM.png",
+      "Portfolio-Website/src/images/Screenshot 2025-09-16 at 4.49.22 PM.png",
+      "Portfolio-Website/src/images/Screenshot 2025-09-16 at 4.49.30 PM.png"
+    ],
+    tags: ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "PostgreSQL", "Docker"],
+    details: {
+      challenge:"Managing employee records manually or in spreadsheets is error-prone, lacks consistency, and does not scale well for organizations. Additionally, integrating persistence with relational databases while maintaining clean architecture can be difficult for backend applications.",
+      solution:"The Employee Management System provides a RESTful API built with Spring Boot and PostgreSQL, containerized with Docker. It implements a clean layered architecture (Controller → Service → Repository), uses DTOs for separation of concerns, and leverages JPA/Hibernate for database persistence. This ensures structured, reliable, and scalable management of employee data.",
+      impact: [
+        "Improves data accuracy and consistency across employee records",
+        "Reduces manual overhead by automating CRUD operations",
+        "Demonstrates modern backend development practices with Dockerized PostgreSQL",
+        "Provides a scalable foundation that can be extended with authentication, search, and cloud deployment"
+      ]
+    }
+  },
+  {
+    id: 3,
     title: "Barcode-scanning Attendance Tracker",
     summary: "A lightweight Python program built using OpenCV, pandas, and openpyxl to decode student ID barcodes and record attendance details in Excel.",
     images: [
@@ -47,7 +68,7 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 3,
+    id: 4,
     title: "Real-time American Sign Language (ASL) Alphabet Translator",
     summary: "A camera-based ASL alphabet translator that uses a camera to read input and decode hand signs, built with TensorFlow, MediaPipe, and a custom pipeline trained on Google’s Teachable Machine with 5,500+ self-created features and labels",
     images: [
