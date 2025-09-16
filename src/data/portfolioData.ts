@@ -35,9 +35,9 @@ export const projects: Project[] = [
     title: "Employee Management System",
     summary: "Employee Management System built with a RESTful API using Spring Boot, JPA/Hibernate, and a PostgreSQL database to manage employee entities containing first name, last name, and email. Supports creating, reading, updating, and deleting (CRUD) employee records, as well as searching employees.",
     images: [
-      "Portfolio-Website/src/images/Screenshot 2025-09-16 at 4.49.11 PM.png",
-      "Portfolio-Website/src/images/Screenshot 2025-09-16 at 4.49.22 PM.png",
-      "Portfolio-Website/src/images/Screenshot 2025-09-16 at 4.49.30 PM.png"
+      "https://imgur.com/a/CHEJKIg",
+      "https://imgur.com/a/kyUCpGt",
+      "https://imgur.com/a/gupXJJY"
     ],
     tags: ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "PostgreSQL", "Docker"],
     details: {
